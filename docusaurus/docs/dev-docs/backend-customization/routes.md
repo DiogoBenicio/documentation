@@ -177,6 +177,10 @@ Dynamic routes can be created using parameters and regular expressions. These pa
 Routes files are loaded in alphabetical order. To load custom routes before core routes, make sure to name custom routes appropriately (e.g. `01-custom-routes.js` and `02-core-routes.js`).
 :::
 
+:::caution
+File names in Strapi only work according to the 'kebab-case' convention, not accepting 'camelCase'
+:::
+
 <details>
 
 <summary>Example of a custom router using URL parameters and regular expressions for routes</summary>
